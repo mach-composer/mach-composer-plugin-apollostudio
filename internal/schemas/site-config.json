@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "description": "apollostudio site settings.",
+  "additionalProperties": false,
+  "required": [
+      "graph_ref"
+  ],
+  "properties": {
+      "graph_ref": {
+          "type": "string"
+      },
+      "api_key": {
+          "type": "string"
+      }
+  }
+}

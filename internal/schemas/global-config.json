@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "description": "apollostudio global settings.",
+  "required": [
+      "api_key"
+  ],
+  "additionalProperties": false,
+  "properties": {
+      "api_key": {
+          "type": "string"
+      }
+  }
+}

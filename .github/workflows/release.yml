@@ -1,0 +1,13 @@
+name: Create release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  goreleaser:
+    uses: mach-composer/github-workflows/.github/workflows/plugin-release.yaml@main
+    secrets: inherit
+    with:
+      name: mach-composer-plugin-apollostudio
