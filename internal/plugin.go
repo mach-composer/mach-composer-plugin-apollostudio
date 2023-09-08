@@ -19,7 +19,7 @@ type ApollostudioPlugin struct {
 
 func NewApollostudioPlugin() schema.MachComposerPlugin {
 	state := &ApollostudioPlugin{
-		provider:    "0.0.4", // Provider version of `labd/apollostudio`
+		provider:    "0.0.5", // Provider version of `labd/apollostudio`
 		siteConfigs: map[string]*ApollostudioConfig{},
 	}
 	return plugin.NewPlugin(&schema.PluginSchema{
