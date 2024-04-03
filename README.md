@@ -7,7 +7,7 @@ This allows you to streamline your configuration and share it as an integration 
 ## Requirements
 
 - [MACH Composer >=2.5](https://github.com/labd/mach-composer)
-- [terraform-provider-vercel](https://github.com/vercel/terraform-provider-apollostudio)
+- [terraform-provider-apollo-studio](https://github.com/labd/terraform-provider-apollostudio)
 
 ## Usage
 
@@ -16,7 +16,7 @@ mach_composer:
   plugins:
     apollostudio:
       source: mach-composer/apollostudio
-      version: 0.0.1
+      version: 0.1.0
 
 global:
   # ...
